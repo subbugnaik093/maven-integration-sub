@@ -12,7 +12,7 @@ sh 'mvn compile'
 }
 stage('build'){
 steps{
-sh 'mvn clean'
+sh 'mvn nothing'
 }
 }
 stage('test'){
